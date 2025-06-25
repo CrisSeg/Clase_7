@@ -13,9 +13,6 @@ namespace Clase_7
             pila.setOrdenLlegaAlumno(new OrdenLlegaAlumno(aula));
             pila.setOrdenAulaLlena(new OrdenAulaLlena(aula));
 
-            //Llenar(pila, 5);
-            //Llenar(pila, 6);
-
             Llenar(pila, 1, 5);
             LlenarPorTeclado(pila, 4, 2);
             LlenarPorLectorDeArchivos(pila, 7, 1);

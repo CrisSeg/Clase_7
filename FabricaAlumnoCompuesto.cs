@@ -33,7 +33,7 @@ namespace Clase_7
 
             for (int i = 0; i < 5; i++)
             {
-                AlumnoProxy al = new AlumnoProxy(responsable.stringDesdeArchivo(5), Convert.ToInt32(responsable.numeroDesdeArchivo(1000.0)), Convert.ToInt32(responsable.numeroDesdeArchivo(1000.0)), Convert.ToInt32(responsable.numeroDesdeArchivo(10.0)), 5);
+                AlumnoProxy al = new AlumnoProxy(responsable.stringDesdeArchivo(5), Convert.ToInt32(responsable.numeroDesdeArchivo(1.0)), Convert.ToInt32(responsable.numeroDesdeArchivo(1.0)), Convert.ToInt32(responsable.numeroDesdeArchivo(1.0)), 5);
                 compuesto.agregarHijos(al);
             }
             return compuesto;

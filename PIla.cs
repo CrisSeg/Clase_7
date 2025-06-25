@@ -25,7 +25,7 @@ namespace Clase_7
             {
                 ordenLlegaAlumno.ejecutar(c);
             }
-            if (p.Count == 40 && ordenAulaLlena != null)
+            if (p.Count <= 40 && ordenAulaLlena != null)
             {
                 ordenAulaLlena.ejecutar();
             }

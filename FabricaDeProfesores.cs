@@ -16,7 +16,7 @@ namespace Clase_7
 
         public override Comparable crearPorLectorDeArchivos()
 		{
-			return new Profesor(responsable.stringDesdeArchivo(5), Convert.ToInt32(responsable.numeroDesdeArchivo(1000.0)), Convert.ToInt32(responsable.numeroDesdeArchivo(25.0)));
+			return new Profesor(responsable.stringDesdeArchivo(5), Convert.ToInt32(responsable.numeroDesdeArchivo(1.0)), Convert.ToInt32(responsable.numeroDesdeArchivo(1.0)));
 		}
     }
 }

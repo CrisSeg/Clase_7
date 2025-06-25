@@ -60,6 +60,7 @@ namespace Clase_7
             }
 
             int respuesta;
+            int respuestaMasVotada = 0;
             //Para contar los votos, voy a implementar un diccionario
             Dictionary<int, int> respuestas = new Dictionary<int, int>();
 
@@ -72,7 +73,14 @@ namespace Clase_7
                 }
             }
 
-            int respuestaMasVotada = respuestas.OrderByDescending(kv => kv.Value).First().Key;
+            foreach (var elem in respuestas)
+            {
+                if (elem.Value > respuestaMasVotada)
+                {
+                    respuestaMasVotada = elem.Value;
+                }
+            }
+
             return respuestaMasVotada;
         }
         public string mostrarCalificacion()

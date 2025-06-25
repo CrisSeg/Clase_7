@@ -70,7 +70,7 @@ namespace Clase_7
         }
 		
 		public int getCalificacion(){
-			return this.calificacion;
+			return this.aReal.getCalificacion();
 		}
 		public void setNvaEstrategia(EstrategiaDeComparacion nvaEstrategia){
 			this.nvaEst = nvaEstrategia;
