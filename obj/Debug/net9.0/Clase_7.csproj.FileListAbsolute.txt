@@ -1,0 +1,14 @@
+C:\Users\nico_\OneDrive\Documentos\SharpDevelop Projects\Clase_7\obj\Debug\net9.0\Clase_7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nico_\OneDrive\Documentos\SharpDevelop Projects\Clase_7\obj\Debug\net9.0\Clase_7.AssemblyInfoInputs.cache
+C:\Users\nico_\OneDrive\Documentos\SharpDevelop Projects\Clase_7\obj\Debug\net9.0\Clase_7.AssemblyInfo.cs
+C:\Users\nico_\OneDrive\Documentos\SharpDevelop Projects\Clase_7\obj\Debug\net9.0\Clase_7.csproj.CoreCompileInputs.cache
+C:\Users\nico_\OneDrive\Documentos\SharpDevelop Projects\Clase_7\bin\Debug\net9.0\Clase_7.exe
+C:\Users\nico_\OneDrive\Documentos\SharpDevelop Projects\Clase_7\bin\Debug\net9.0\Clase_7.deps.json
+C:\Users\nico_\OneDrive\Documentos\SharpDevelop Projects\Clase_7\bin\Debug\net9.0\Clase_7.runtimeconfig.json
+C:\Users\nico_\OneDrive\Documentos\SharpDevelop Projects\Clase_7\bin\Debug\net9.0\Clase_7.dll
+C:\Users\nico_\OneDrive\Documentos\SharpDevelop Projects\Clase_7\bin\Debug\net9.0\Clase_7.pdb
+C:\Users\nico_\OneDrive\Documentos\SharpDevelop Projects\Clase_7\obj\Debug\net9.0\Clase_7.dll
+C:\Users\nico_\OneDrive\Documentos\SharpDevelop Projects\Clase_7\obj\Debug\net9.0\refint\Clase_7.dll
+C:\Users\nico_\OneDrive\Documentos\SharpDevelop Projects\Clase_7\obj\Debug\net9.0\Clase_7.pdb
+C:\Users\nico_\OneDrive\Documentos\SharpDevelop Projects\Clase_7\obj\Debug\net9.0\Clase_7.genruntimeconfig.cache
+C:\Users\nico_\OneDrive\Documentos\SharpDevelop Projects\Clase_7\obj\Debug\net9.0\ref\Clase_7.dll
