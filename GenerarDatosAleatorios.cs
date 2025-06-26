@@ -6,9 +6,10 @@ namespace Clase_7
 {
 	public class GenerarDatosAleatorios : Manejador
 	{
+		private static GenerarDatosAleatorios unicaInstancia = null; 
 		private static Random rn = new Random();
 
-		public GenerarDatosAleatorios(Manejador sucesor): base(sucesor) { }
+		private GenerarDatosAleatorios(Manejador sucesor): base(sucesor) { }
 		public override int numeroAleatorio(int max){
 			int num = rn.Next(0, max);
 			return num;
@@ -24,5 +25,15 @@ namespace Clase_7
 			
 			return palabra.ToString();
 		}
+
+		//Implemenacion de Singleton
+		public static GenerarDatosAleatorios getInstance(Manejador m)
+		{
+            if (unicaInstancia == null)
+            {
+				unicaInstancia = new GenerarDatosAleatorios(m);
+            }
+			return unicaInstancia;
+        }
 	}
 }

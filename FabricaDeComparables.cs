@@ -66,9 +66,9 @@ namespace Clase_7
 
 		protected static void generarCadenaResponsables()
 		{
-			responsable = new GenerarDatosAleatorios(null);
+			responsable = GenerarDatosAleatorios.getInstance(null);
 			responsable = new LectorDeDatos(responsable);
-			responsable = new LectorDeArchivos(responsable);
+			responsable = LectorDeArchivos.getInstance(responsable);
 		}
 	}
 }
